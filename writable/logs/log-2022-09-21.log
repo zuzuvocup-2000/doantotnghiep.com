@@ -1,0 +1,196 @@
+CRITICAL - 2022-09-21 09:31:51 --> Undefined property: App\Controllers\Backend\User\User::$session
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\User\User.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 75, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:37:05 --> Undefined property: App\Controllers\Backend\User\User::$module
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\User\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 86, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:37:25 --> Undefined property: App\Controllers\Backend\User\User::$module
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\User\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 86, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:37:26 --> Undefined property: App\Controllers\Backend\User\User::$module
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\User\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 86, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:37:27 --> Undefined property: App\Controllers\Backend\User\User::$module
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\User\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 86, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:45:40 --> Undefined variable: userModel
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Validation\UserRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 57, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(325): App\Validation\UserRules->checkAuth('111111', 'vjetanh2000@gma...', Array, NULL)
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', '111111', Array, Array)
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(27): CodeIgniter\Controller->validate(Array, Array)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->login()
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-21 10:16:05 --> Call to undefined function App\Filters\pre()
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-21 10:21:48 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 128
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(128): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:21:55 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 128
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(128): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:27:49 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 129
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(129): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:28:55 --> Call to undefined method App\Models\UserModel::count
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Validation\UserRules.php(104): CodeIgniter\Model->__call('count', Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(325): App\Validation\UserRules->check_email('vjetanh2000@gma...', NULL)
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'vjetanh2000@gma...', Array, Array)
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(89): CodeIgniter\Controller->validate(Array, Array)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-21 10:32:44 --> syntax error, unexpected ''user_agent,'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\DoAnTotNghie...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 [internal function]: spl_autoload_call('App\\Models\\User...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Database\ModelFactory.php(74): class_exists('App\\Models\\User...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Database\ModelFactory.php(40): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\User...', NULL)
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\User...', true, NULL)
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Services\AuthService.php(20): model('App\\Models\\User...')
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(30): App\Services\AuthService->__construct(Array)
+#9 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::AuthService(Array, false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(27): CodeIgniter\Config\BaseService::getSharedInstance('authservice', Array)
+#11 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::AuthService()
+#12 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(11): service('AuthService')
+#13 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Authentication\Auth->__construct()
+#14 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#15 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-09-21 10:45:32 --> Non-static method App\Libraries\Mailbie::send() should not be called statically
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Services\AuthService.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'G:\\DoAnTotNghie...', 83, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(63): App\Services\AuthService->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:46:18 --> Using $this when not in object context
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Services\AuthService.php(86): App\Libraries\Mailbie::send(Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(63): App\Services\AuthService->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:46:42 --> Using $this when not in object context
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Services\AuthService.php(86): App\Libraries\Mailbie::send(Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(63): App\Services\AuthService->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:47:23 --> Undefined property: App\Services\AuthService::$AutoloadModel
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Services\AuthService.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 94, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(63): App\Services\AuthService->forgot()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:47:34 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 155
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(155): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->verify()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:48:00 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 122
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(122): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->verify()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:48:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\DoAnTotNghie...', 105, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Validation\UserRules.php(105): count(NULL)
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(325): App\Validation\UserRules->check_email('vjetanh20002@gm...', NULL)
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'vjetanh20002@gm...', Array, Array)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(62): CodeIgniter\Controller->validate(Array, Array)
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->forgot()
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 10:48:33 --> Argument 2 passed to view() must be of the type array, null given, called in G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php on line 122
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(122): view('backend/authent...', NULL)
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Authentication\Auth->verify()
+#2 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 10:56:11 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\DoAnTotNghie...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Services\\Au...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Services\\Au...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(30): spl_autoload_call('App\\Services\\Au...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::AuthService(Array, false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(27): CodeIgniter\Config\BaseService::getSharedInstance('authservice', Array)
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::AuthService()
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(11): service('AuthService')
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Authentication\Auth->__construct()
+#9 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-21 10:56:45 --> syntax error, unexpected ']', expecting ')'
+#0 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\DoAnTotNghie...')
+#1 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Services\\Au...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Services\\Au...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(30): spl_autoload_call('App\\Services\\Au...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::AuthService(Array, false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Config\Services.php(27): CodeIgniter\Config\BaseService::getSharedInstance('authservice', Array)
+#6 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::AuthService()
+#7 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\app\Controllers\Backend\Authentication\Auth.php(11): service('AuthService')
+#8 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Authentication\Auth->__construct()
+#9 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\DoAnTotNghiep\OpenServer\domains\doantotnghiep.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}

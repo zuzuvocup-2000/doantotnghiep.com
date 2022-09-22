@@ -1,0 +1,156 @@
+CRITICAL - 2022-09-18 02:25:41 --> Array to string conversion
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\member\member\create.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\DoAnTotNghie...', 392, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(53): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-18 04:28:30 --> compact(): Undefined variable: validate
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 53, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Backend\Product\Catalogue.php(53): compact('config', 'template', 'validate')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Catalogue->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Catalogue))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:28:33 --> compact(): Undefined variable: validate
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 53, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Backend\Product\Catalogue.php(53): compact('config', 'template', 'validate')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Catalogue->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Catalogue))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:28:43 --> compact(): Undefined variable: validate
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 53, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Backend\Product\Catalogue.php(53): compact('config', 'template', 'validate')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Catalogue->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Catalogue))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:30:48 --> Undefined variable: config
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\member\member\create.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 55, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(67): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-18 04:37:35 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 37, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(37): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:12 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-AP-Product-Banner.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:13 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:13 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:14 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:14 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:15 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 04:40:15 --> unlink(G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\image_member\member_6\2022-09-18-250_2627_20210225180049_5079_copy.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(G:\\DoAnT...', 'G:\\DoAnTotNghie...', 35, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(35): unlink('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->delete()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-18 06:18:42 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-18 06:29:23 --> Undefined index: en_detect
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\backend\panel\panel\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\DoAnTotNghie...', 66, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/panel/p...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\backend\dashboard\layout\home.php(44): view('backend/panel/p...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Backend\Panel\Panel.php(54): view('backend/dashboa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Panel\Panel->index('vi')
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Panel\Panel))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-18 06:32:23 --> Undefined variable: language
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\home\index.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 193, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/homepa...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(65): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-18 06:37:14 --> Array to string conversion
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\home\index.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'G:\\DoAnTotNghie...', 206, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/homepa...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(65): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}

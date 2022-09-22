@@ -1,0 +1,26 @@
+CRITICAL - 2022-09-06 03:52:00 --> Unable to locate view cell class: \App\Controllers\Frontend\Project\Catalogue.
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('\\App\\Controller...')
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('\\App\\Controller...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=2, page=1', 0, NULL)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=2, page=1')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-06 04:00:06 --> Undefined index: bestseller
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\article\article\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 87, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/articl...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Article\Article.php(278): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index(3, '1')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=3, page=1', 0, 'AppControllersF...')
+#9 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=3, page=1')
+#10 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('can-ho-tong-hon...')
+#11 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

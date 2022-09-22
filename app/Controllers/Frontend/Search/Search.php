@@ -1,0 +1,549 @@
+<?php
+namespace App\Controllers\Frontend\Search;
+use App\Controllers\FrontendController;
+
+class Search extends FrontendController{
+
+
+      protected $data;
+      protected $city;
+      protected $typeRepository;
+      protected $priceRepository;
+      protected $projectRepository;
+      protected $productRepository;
+      protected $productService;
+      protected $memberRepository;
+      protected $array;
+
+    public function __construct(){
+      $this->data = [];
+      $this->data['language'] = $this->currentLanguage();
+      $this->array = service('array');
+      $this->provinceRepository = service('ProvinceRepository', 'vn_province');
+      $this->typeRepository = service('TypeRepository', 'product_type');
+      $this->priceRepository = service('PriceRepository', 'product_price');
+    }
+
+    public function product($page = 1){
+      $keyword = $this->request->getGet('keyword');
+      if(!empty($keyword)){
+         $keyword = '(tb3.title LIKE \'%'.$keyword.'%\')';
+      }
+      $form = $this->request->getGet('form');
+      $cityid = $this->request->getGet('city_id');
+      $districtid = $this->request->getGet('district_id');
+      $direction = $this->request->getGet('direction');
+      $area = $this->request->getGet('area');
+      $type = $this->request->getGet('type');
+      $priceRange = $this->request->getGet('price_range');
+
+
+      $where = [
+         'tb1.form' => $form
+      ];
+      if(!empty($cityid) && $cityid != 0 ){
+         $where['tb1.city_id'] = $cityid;
+      }
+      if(!empty($districtid) && $districtid != 0 ){
+         $where['tb1.district_id'] = $districtid;
+      }
+
+      if(isset($direction) && $direction > 0 ){
+         $where['tb1.direction'] = $direction;
+      }
+
+      if(isset($area) && !empty($area)){
+         $area = explode('|', $area);
+         $where['tb1.area >='] = $area[0];
+         $where['tb1.area <='] = $area[1];
+      }
+
+      if(isset($type) && $type > 0 ){
+         $where['tb1.type'] = $type;
+      }
+
+      if($priceRange > 0){
+         $priceDetail = $this->AutoloadModel->_get_where([
+            'select' => '*',
+            'table' => 'product_price',
+            'where' => [
+               'id' => $priceRange
+            ]
+         ]);
+
+         if($priceDetail['price_max'] == 0){
+            $where['tb1.price <='] = $priceDetail['price_min'];
+         }else{
+            $where['tb1.price >='] = $priceDetail['price_min'];
+            $where['tb1.price <='] = $priceDetail['price_max'];
+         }
+      }
+
+      $where['tb1.deleted_at'] = 0;
+      $where['tb1.publish'] = 1;
+
+
+
+      $config['total_rows'] = $this->AutoloadModel->_get_where([
+          'select' => 'tb1.id',
+          'table' => 'product as tb1',
+          'keyword' => $keyword,
+          'where' => $where,
+          'join' => [
+             [
+                  'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "product" ', 'inner'
+             ],
+             [
+                  'product_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "product" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+             ]
+          ],
+          'count' => TRUE
+      ]);
+
+      $perpage = 20;
+      $seoPage = '';
+      $config['base_url'] = write_url('tim-kiem-nang-cao', FALSE, TRUE);
+      if($config['total_rows'] > 0){
+          $config = pagination_frontend(['url' => $config['base_url'],'perpage' => $perpage], $config, $page);
+          $this->pagination->initialize($config);
+          $this->data['pagination'] = $this->pagination->create_links();
+
+          $totalPage = ceil($config['total_rows']/$config['per_page']);
+          $page = ($page <= 0)?1:$page;
+          $page = ($page > $totalPage)?$totalPage:$page;
+          if($page >= 2){
+             $this->data['canonical'] = $config['base_url'].'/trang-'.$page.HTSUFFIX;
+          }
+          $page = $page - 1;
+
+          $order_by = 'tb1.order desc, tb1.id desc';
+          if(isset($_GET['order_by']) && $_GET['order_by'] != ''){
+             $order_by = $_GET['order_by'];
+          }
+          $this->data['productList'] = $this->AutoloadModel->_get_where([
+             'select' => '
+                tb1.id,
+                tb1.image,
+                tb1.code,
+                tb1.catalogueid,
+                tb1.form,
+                tb1.type,
+                tb1.area,
+                tb1.juridical,
+                tb1.direction,
+                tb1.horizontal,
+                tb1.long,
+                tb1.floor,
+                tb1.front,
+                tb1.bed,
+                tb1.price,
+                tb1.kitchen,
+                tb1.terrace,
+                tb1.parking,
+                tb1.own,
+                tb1.city_id,
+                tb1.district_id,
+                tb1.address,
+                tb1.created_at,
+                tb3.title,
+                tb3.canonical,
+                tb3.description,
+             ',
+             'table' => 'product as tb1',
+             'where' => $where,
+             'keyword' => $keyword,
+             'join' => [
+                  [
+                      'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "product" ', 'inner'
+                  ],
+                  [
+                      'product_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "product" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                  ],
+                  [
+                      'product_translate as tb4','tb1.catalogueid = tb4.objectid AND tb4.module = "product_catalogue" AND tb4.language = \''.$this->currentLanguage().'\' ','inner'
+                  ]
+             ],
+             'limit' => $config['per_page'],
+             'start' => $page * $config['per_page'],
+             'order_by'=>  $order_by,
+             'group_by' => 'tb1.id'
+          ], TRUE);
+
+      }
+
+      $this->data['productType'] = $this->array->convertArrayByValue($this->typeRepository->all('id, title'), '[Chọn Loại BĐS]');
+      $this->data['city'] = $this->array->converProvinceArray($this->provinceRepository->allProvince());
+      $this->data['productPrice'] = $this->array->convertArrayByValue($this->priceRepository->all('id, title'), '[Chọn khoảng giá]');
+      $this->data['meta_title'] = 'Tìm kiếm nâng cao'.$seoPage;
+      $this->data['meta_description'] = 'Tìm kiếm bất động sản'.$seoPage;
+      $this->data['meta_image'] = '';
+
+      if(!isset($this->data['canonical']) || empty($this->data['canonical'])){
+         $this->data['canonical'] = $config['base_url'].HTSUFFIX;
+      }
+
+        $this->data['general'] = $this->general;
+        $this->data['perpage'] = $perpage;
+        $this->data['template'] = 'frontend/search/product';
+        return view('frontend/homepage/layout/home', $this->data);
+   }
+
+    public function index($page = 1, $module = ''){
+        helper(['mypagination']);
+        $session = session();
+        $seoPage = '';
+        $article = $this->search_article($page, $module);
+        $this->data['articleList'] = $article['array'];
+        $this->data['pagination_article'] = $article['pagination'];
+        $product = $this->search_product($page, $module);
+
+        $this->data['productList'] = $product['array'];
+        $this->data['pagination'] = $product['pagination'];
+        $media = $this->search_media($page, $module);
+        $this->data['mediaList'] = $media['array'];
+        $this->data['pagination_media'] = $media['pagination'];
+        // $this->data['count_product'] = $product['count'];
+
+        $this->data['canonical'] = "$_SERVER[REQUEST_SCHEME]://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $title = ($this->data['language'] == 'vi' ? 'Tìm kiếm theo từ khóa: ' : 'Search by keyword: ');
+        $this->data['detailCatalogue'] = [
+            'title' => $title.$this->request->getGet('keyword'),
+            'canonical' => $this->data['canonical'],
+            'content' => '' ,
+            'description' => ''
+        ];
+        $this->data['meta_title'] = $title.$this->request->getGet('keyword');
+        $this->data['meta_description'] = $title.$this->request->getGet('keyword');
+        $this->data['meta_image'] = !empty( $this->data['detailCatalogue']['image'])?base_url( $this->data['detailCatalogue']['image']):'';
+
+        $this->data['general'] = $this->general;
+
+        $this->data['template'] = 'frontend/search/index';
+        return view('frontend/homepage/layout/home', $this->data);
+    }
+
+    private function condition_keyword($keyword = ''): string{
+        if(!empty($this->request->getGet('keyword'))){
+            $keyword = $this->request->getGet('keyword');
+            $keyword = '(tb3.title LIKE \'%'.$keyword.'%\')';
+        }
+        return $keyword;
+    }
+
+    private function search_article($page = 1, $module = 'article'){
+        $page = ($module == 'article' ? (int)$page : 1);
+        $articleList = [];
+        $pagination = '';
+        $perpage = ($this->request->getGet('perpage')) ? $this->request->getGet('perpage') : 12;
+        $keyword = $this->condition_keyword();
+        $config['total_rows'] = $this->AutoloadModel->_get_where([
+            'select' => 'tb1.id',
+            'table' => 'article as tb1',
+            'keyword' => $keyword,
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.publish' => 1
+            ],
+            'join' => [
+                [
+                    'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "article" ', 'inner'
+                ],
+                [
+                    'article_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "article" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                ],
+                [
+                    'article_translate as tb4','tb4.module = "article_catalogue" AND tb4.objectid = tb1.catalogueid AND tb3.language = \''.$this->currentLanguage().'\'', 'inner'
+                ],
+                [
+                    'user as tb5','tb1.userid_created = tb5.id', 'left'
+                ]
+            ],
+            'count' => TRUE
+        ]);
+        $config['base_url'] = write_url('tim-kiem', FALSE, TRUE);
+        if($config['total_rows'] > 0){
+            $config = pagination_frontend_search(['url' => $config['base_url'],'perpage' => $perpage], $config, $page , 'article');
+
+            $this->pagination->initialize($config);
+            $pagination = $this->pagination->create_links();
+            $totalPage = ceil($config['total_rows']/$config['per_page']);
+            $page = ($page <= 0)?1:$page;
+            $page = ($page > $totalPage)?$totalPage:$page;
+            $seoPage = ($page >= 2)?(' - Trang '.$page):'';
+            $page = $page - 1;
+            $articleList = $this->AutoloadModel->_get_where([
+                'select' => 'tb1.id,tb1.viewed, tb1.image, tb4.title as cat_title,tb1.catalogue, tb4.canonical as cat_canonical, tb3.title, tb3.canonical, tb3.meta_title, tb3.meta_description,tb3.icon, tb3.viewed, tb3.description, tb3.content, tb1.created_at, tb5.fullname',
+                'table' => 'article as tb1',
+                'where' => [
+                    'tb1.deleted_at' => 0,
+                    'tb1.publish' => 1
+                ],
+                'keyword' => $keyword,
+                'join' => [
+                    [
+                        'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "article" ', 'inner'
+                    ],
+                    [
+                        'article_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "article" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                    ],
+                    [
+                        'article_translate as tb4','tb4.module = "article_catalogue" AND tb4.objectid = tb1.catalogueid AND tb3.language = \''.$this->currentLanguage().'\'', 'inner'
+                    ],
+                    [
+                        'user as tb5','tb1.userid_created = tb5.id', 'left'
+                    ]
+                ],
+                'limit' => $config['per_page'],
+                'start' => $page * $config['per_page'],
+                'order_by'=> 'tb1.order desc, tb1.id desc',
+                'group_by' => 'tb1.id'
+            ], TRUE);
+        }
+
+        return [
+            'array' => $articleList ,
+            'pagination' => $pagination
+        ];
+    }
+
+    private function search_media($page = 1, $module = 'media'){
+        $page = ($module == 'media' ? (int)$page : 1);
+        $mediaList = [];
+        $pagination = '';
+        $perpage = ($this->request->getGet('perpage')) ? $this->request->getGet('perpage') : 12;
+        $keyword = $this->condition_keyword();
+        $config['total_rows'] = $this->AutoloadModel->_get_where([
+            'select' => 'tb1.id',
+            'table' => 'media as tb1',
+            'keyword' => $keyword,
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.publish' => 1
+            ],
+            'join' => [
+                [
+                    'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "media" ', 'inner'
+                ],
+                [
+                    'media_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "media" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                ],
+                [
+                    'media_translate as tb4','tb4.module = "media_catalogue" AND tb4.objectid = tb1.catalogueid AND tb3.language = \''.$this->currentLanguage().'\'', 'inner'
+                ],
+                [
+                    'user as tb5','tb1.userid_created = tb5.id', 'left'
+                ]
+            ],
+            'count' => TRUE
+        ]);
+        $config['base_url'] = write_url('tim-kiem', FALSE, TRUE);
+        if($config['total_rows'] > 0){
+            $config = pagination_frontend_search(['url' => $config['base_url'],'perpage' => $perpage], $config, $page , 'media');
+
+            $this->pagination->initialize($config);
+            $pagination = $this->pagination->create_links();
+            $totalPage = ceil($config['total_rows']/$config['per_page']);
+            $page = ($page <= 0)?1:$page;
+            $page = ($page > $totalPage)?$totalPage:$page;
+            $seoPage = ($page >= 2)?(' - Trang '.$page):'';
+            $page = $page - 1;
+            $mediaList = $this->AutoloadModel->_get_where([
+                'select' => 'tb1.id,tb1.viewed, tb1.image, tb4.title as cat_title,tb1.catalogue, tb4.canonical as cat_canonical, tb3.title, tb3.canonical, tb3.meta_title, tb3.meta_description,tb3.icon, tb3.viewed, tb3.description, tb3.content, tb1.created_at, tb5.fullname',
+                'table' => 'media as tb1',
+                'where' => [
+                    'tb1.deleted_at' => 0,
+                    'tb1.publish' => 1
+                ],
+                'keyword' => $keyword,
+                'join' => [
+                    [
+                        'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "media" ', 'inner'
+                    ],
+                    [
+                        'media_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "media" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                    ],
+                    [
+                        'media_translate as tb4','tb4.module = "media_catalogue" AND tb4.objectid = tb1.catalogueid AND tb3.language = \''.$this->currentLanguage().'\'', 'inner'
+                    ],
+                    [
+                        'user as tb5','tb1.userid_created = tb5.id', 'left'
+                    ]
+                ],
+                'limit' => $config['per_page'],
+                'start' => $page * $config['per_page'],
+                'order_by'=> 'tb1.order desc, tb1.id desc',
+                'group_by' => 'tb1.id'
+            ], TRUE);
+        }
+
+        return [
+            'array' => $mediaList ,
+            'pagination' => $pagination
+        ];
+    }
+
+    private function search_product($page = 1, $module = 'product'){
+        $page = ($module == 'product' ? (int)$page : 1);
+        $productList = [];
+        $pagination = '';
+        $perpage = ($this->request->getGet('perpage')) ? $this->request->getGet('perpage') : 20;
+        $keyword = $this->condition_keyword();
+
+        $importSQL = $this->create_query();
+        $catalogueid =  ($this->request->getGet('catalogueid')) ? $this->request->getGet('catalogueid') : '';
+        $catalogue = $this->condition_catalogue($catalogueid);
+        $config['total_rows'] = $this->AutoloadModel->_get_where([
+            'select' => 'tb1.id',
+            'table' => 'product as tb1',
+            'keyword' => $keyword,
+            'query' => $importSQL['query'],
+            'where_in' => $catalogue['where_in'],
+            'where_in_field' => $catalogue['where_in_field'],
+            'where' => [
+                'tb1.deleted_at' => 0,
+                'tb1.publish' => 1
+            ],
+            'join' => [
+                [
+                    'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "product" ', 'inner'
+                ],
+                [
+                    'product_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "product" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                ],
+                [
+                    'product_translate as tb4','tb4.module = "product_catalogue" AND tb4.objectid = tb1.catalogueid AND tb4.language = \''.$this->currentLanguage().'\'', 'inner'
+                ],
+                [
+                    'user as tb5','tb1.userid_created = tb5.id', 'left'
+                ]
+            ],
+            'count' => TRUE,
+            'group_by' => 'tb1.id'
+        ]);
+        $config['base_url'] = write_url('tim-kiem', FALSE, TRUE);
+        if($config['total_rows'] > 0){
+            $config = pagination_frontend_search(['url' => $config['base_url'],'perpage' => $perpage], $config, $page , 'product');
+
+            $this->pagination->initialize($config);
+            $pagination = $this->pagination->create_links();
+            $totalPage = ceil($config['total_rows']/$config['per_page']);
+            $page = ($page <= 0)?1:$page;
+            $page = ($page > $totalPage)?$totalPage:$page;
+            $seoPage = ($page >= 2)?(' - Trang '.$page):'';
+            $page = $page - 1;
+            $productList = $this->AutoloadModel->_get_where([
+                'select' => 'tb1.id,tb1.viewed, tb1.image,tb1.price,tb1.price_promotion, tb1.productid, tb1.model, tb1.bar_code, tb1.hot, tb4.title as cat_title,tb1.catalogue, tb4.canonical as cat_canonical, tb3.title, tb3.canonical, tb3.meta_title, tb3.meta_description,tb3.icon, tb1.viewed, tb3.description, tb3.content, tb1.created_at, tb5.fullname, tb1.length, tb3.huong',
+                'table' => 'product as tb1',
+                'where' => [
+                    'tb1.deleted_at' => 0,
+                    'tb1.publish' => 1
+                ],
+                'keyword' => $keyword,
+                'query' => $importSQL['query'],
+                'where_in' => $catalogue['where_in'],
+                'where_in_field' => $catalogue['where_in_field'],
+                'join' => [
+                    [
+                        'object_relationship as tb2', 'tb1.id = tb2.objectid AND tb2.module = "product" ', 'inner'
+                    ],
+                    [
+                        'product_translate as tb3','tb1.id = tb3.objectid AND tb3.module = "product" AND tb3.language = \''.$this->currentLanguage().'\' ','inner'
+                    ],
+                    [
+                        'product_translate as tb4','tb4.module = "product_catalogue" AND tb4.objectid = tb1.catalogueid AND tb4.language = \''.$this->currentLanguage().'\'', 'inner'
+                    ],
+                    [
+                        'user as tb5','tb1.userid_created = tb5.id', 'left'
+                    ]
+                ],
+                'limit' => $config['per_page'],
+                'start' => $page * $config['per_page'],
+                'order_by'=> 'tb1.order desc, tb1.id desc',
+                'group_by' => 'tb1.id'
+            ], TRUE);
+
+        }
+
+
+        return [
+            'array' => $productList ,
+            'pagination' => $pagination,
+            'count' => $config['total_rows']
+        ];
+    }
+
+    private function create_query(){
+        $find = [];
+        $querySQL = '';
+        $huong =  ($this->request->getGet('huong')) ? $this->request->getGet('huong') : '';
+        $length =  ($this->request->getGet('ngang')) ? $this->request->getGet('ngang') : '';
+        if(isset($huong) && !empty($huong)){
+            $find['huong'] = $this->find_by_huong($huong);
+        }
+        if(isset($length) && !empty($length)){
+            $find['length'] = $this->find_by_length($length);
+        }
+
+        if(isset($find) && is_array($find) && count($find)){
+            $count = 1;
+            foreach ($find as $key => $value) {
+                $querySQL = $querySQL.$value.(($count == count($find) ? '' : ' AND '));
+                $count++;
+            }
+        }
+
+        return [
+            'query' => $querySQL,
+        ];
+    }
+
+    private function find_by_huong($param = ''){
+        $explode = explode(',', $param);
+        $query = '( ';
+        foreach ($explode as $key => $value) {
+            $query = $query.(($key == 0) ? '' : 'OR ').'tb3.huong = \''.$value.'\' ';
+        }
+        $query = $query.' )';
+        return $query;
+    }
+
+     private function find_by_length($param = ''){
+        $explode = explode(',', $param);
+        $query = '( ';
+        foreach ($explode as $key => $value) {
+            $query = $query.(($key == 0) ? '' : 'OR ').'tb1.length = \''.$value.'\' ';
+        }
+        $query = $query.' )';
+        return $query;
+    }
+
+    public function condition_catalogue($catalogueid = 0){
+        $id = [];
+        if($catalogueid > 0){
+            $catalogue = $this->AutoloadModel->_get_where([
+                'select' => 'tb1.id, tb1.lft, tb1.rgt, tb3.title',
+                'table' => 'product_catalogue as tb1',
+                'join' =>  [
+                    [
+                        'product_translate as tb3','tb1.id = tb3.objectid AND tb3.language = \''.$this->currentLanguage().'\' AND tb3.module = "product_catalogue"','inner'
+                    ],
+                ],
+                'where' => ['tb1.id' => $catalogueid],
+            ]);
+
+            $catalogueChildren = $this->AutoloadModel->_get_where([
+                'select' => 'id',
+                'table' => 'product_catalogue',
+                'where' => ['lft >=' => $catalogue['lft'],'rgt <=' => $catalogue['rgt']],
+            ], TRUE);
+
+            $id = array_column($catalogueChildren, 'id');
+        }
+        return [
+            'where_in' => $id,
+            'where_in_field' => 'tb2.catalogueid'
+        ];
+
+    }
+
+}

@@ -1,0 +1,136 @@
+CRITICAL - 2022-09-17 02:34:21 --> compact(): Undefined variable: og_type
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 41, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(41): compact('general', 'og_type', 'canonical', 'meta_title', 'meta_descriptio...', 'province', 'template')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 02:38:57 --> compact(): Undefined variable: province
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 41, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(41): compact('general', 'canonical', 'meta_title', 'meta_descriptio...', 'province', 'template')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 02:55:22 --> compact(): Undefined variable: project_list
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 47, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(47): compact('general', 'og_type', 'canonical', 'meta_title', 'meta_descriptio...', 'province', 'template', 'project_list')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 02:59:37 --> Undefined property: App\Controllers\Frontend\Member\Member::$typeRepository
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\DoAnTotNghie...', 40, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-17 02:59:55 --> Undefined variable: config
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\member\member\create.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 47, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-17 03:12:41 --> syntax error, unexpected '" id="' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-17 03:14:03 --> syntax error, unexpected ';', expecting ')'
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-17 03:37:23 --> Call to undefined function form_number()
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-17 03:58:07 --> Undefined variable: member
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\member\member\create.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 11, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-17 03:58:45 --> Undefined variable: member
+#0 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\member\member\create.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\DoAnTotNghie...', 7, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/member...', Array, true)
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(44): view('frontend/member...')
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\DoAnTotNghie...')
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Member.php(52): view('frontend/homepa...', Array)
+#7 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Member->create()
+#8 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Member))
+#9 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-17 03:59:49 --> compact(): Undefined variable: og_type
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'G:\\DoAnTotNghie...', 48, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Frontend\Member\Profile.php(48): compact('general', 'og_type', 'canonical', 'meta_title', 'meta_descriptio...', 'province', 'template')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Member\Profile->index()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Member\Profile))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 04:06:38 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'G:\\DoAnTotNghie...', 21, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(21): mkdir('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->index()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 04:08:00 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'G:\\DoAnTotNghie...', 21, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(21): mkdir('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->index()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 04:08:07 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'G:\\DoAnTotNghie...', 21, Array)
+#1 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\app\Controllers\Ajax\Frontend\Upload.php(21): mkdir('G:\\DoAnTotNghie...')
+#2 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Upload->index()
+#3 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Upload))
+#4 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\DoAnTotNghiep\OpenServer\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}

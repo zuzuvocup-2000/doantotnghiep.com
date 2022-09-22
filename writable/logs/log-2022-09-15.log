@@ -1,0 +1,572 @@
+CRITICAL - 2022-09-15 07:55:12 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(517): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 517, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:55:20 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:55:27 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:55:28 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:31 --> Undefined variable: val
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:32 --> Undefined variable: val
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:44 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:44 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:45 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:56:45 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:58:03 --> Undefined variable: val
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:58:04 --> Undefined variable: val
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 534, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:58:19 --> Undefined variable: page
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(537): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 537, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:58:20 --> Undefined variable: page
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Services\ProjectService.php(537): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 537, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(34): App\Services\ProjectService->projectByCity(Array, 1)
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 07:58:55 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 40, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 07:58:56 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 40, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 07:59:12 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\findProjectByType.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 07:59:13 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\findProjectByType.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 07:59:45 --> Undefined variable: cityDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 07:59:46 --> Undefined variable: cityDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:00:19 --> Undefined variable: cityDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:00:20 --> Undefined variable: cityDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:00:29 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 51, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:00:30 --> Undefined variable: projectTypeDetail
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\projectByCity.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 51, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(56): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Project\Catalogue->projectByCity('01TTT')
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Project\Catalogue))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:04:25 --> Undefined variable: city
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 100, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(259): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Project\Catalogue->index(2, 0)
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=2, page=1', 0, 'AppControllersF...')
+#9 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=2, page=1')
+#10 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#11 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-09-15 08:04:27 --> Undefined variable: city
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\project\catalogue\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 100, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/projec...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/projec...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Project\Catalogue.php(259): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Project\Catalogue->index(2, 0)
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=2, page=1', 0, 'AppControllersF...')
+#9 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Router.php(59): view_cell('\\App\\Controller...', 'id=2, page=1')
+#10 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('du-an')
+#11 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-09-15 08:14:52 --> Undefined variable: catalogue
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 35, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:13 --> Undefined variable: module_extract
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 41, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:14 --> Undefined variable: module_extract
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 41, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:20 --> Undefined variable: module_extract
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 41, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:20 --> Undefined variable: module_extract
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 41, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:21 --> Undefined variable: module_extract
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 41, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:30 --> Undefined index: detailCatalogue
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 51, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:31 --> Undefined index: detailCatalogue
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 51, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:47 --> Undefined variable: perpage
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 53, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:48 --> Undefined variable: perpage
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 53, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:58 --> Undefined variable: page
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 53, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:15:59 --> Undefined variable: page
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 53, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:24:57 --> Undefined index: detailCatalogue
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 176, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:25:39 --> Undefined variable: seoPage
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 176, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:25:40 --> Undefined variable: seoPage
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 176, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 08:25:49 --> Undefined variable: breadcrumb
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\product\catalogue\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/produc...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(188): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 08:25:50 --> Undefined variable: breadcrumb
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\product\catalogue\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 11, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/produc...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(43): view('frontend/produc...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Search\Search.php(188): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Search\Search->product()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Search\Search))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:05:12 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 90, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:05:15 --> Undefined index: id
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 90, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:18:28 --> syntax error, unexpected ','
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('ajax/member/reg...')
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ajax/member/reg...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 20:18:45 --> Call to undefined function App\Controllers\Ajax\random_string()
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Member->register()
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Member))
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 20:30:39 --> Undefined index: salt
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Ajax\Member.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 86, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Member->login()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Member))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 20:30:56 --> Undefined index: salt
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Ajax\Member.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 86, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Member->login()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Member))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 20:31:22 --> Undefined index: salt
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Ajax\Member.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\OpenServerPa...', 86, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Member->login()
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Member))
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 20:36:21 --> Cannot use object of type stdClass as array
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#2 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#5 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-15 20:38:55 --> syntax error, unexpected ':', expecting ',' or ';'
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-15 20:39:09 --> Undefined variable: Member
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 49, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:39:10 --> Undefined variable: Member
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 49, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:39:10 --> Undefined variable: Member
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 49, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:39:10 --> Undefined variable: Member
+#0 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\common\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\OpenServerPa...', 49, Array)
+#1 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#3 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#4 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#8 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#9 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 20:39:35 --> syntax error, unexpected ':', expecting ',' or ';'
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-15 20:39:36 --> syntax error, unexpected ':', expecting ',' or ';'
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-15 20:39:47 --> syntax error, unexpected ':', expecting ',' or ';'
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-15 20:39:48 --> syntax error, unexpected ':', expecting ',' or ';'
+#0 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 E:\OpenServerPanel\domains\ht.bds.com\app\Views\frontend\homepage\layout\home.php(41): view('frontend/homepa...')
+#2 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\OpenServerPa...')
+#3 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 E:\OpenServerPanel\domains\ht.bds.com\app\Controllers\Frontend\Homepage\Home.php(64): view('frontend/homepa...', Array)
+#5 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 E:\OpenServerPanel\domains\ht.bds.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\OpenServerPanel\domains\ht.bds.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
